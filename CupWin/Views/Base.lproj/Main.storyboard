@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Campeões-->
         <scene sceneID="sET-nb-px6">
             <objects>
                 <tableViewController id="dhD-iT-38y" customClass="WinnersTableViewController" customModule="CupWin" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="IAt-gb-Faw" customClass="WorldCupTableViewCell" customModule="CupWin" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="144" id="IAt-gb-Faw" customClass="WorldCupTableViewCell" customModule="CupWin" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="166" width="414" height="144"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IAt-gb-Faw" id="rgm-PA-nPq">
@@ -131,6 +131,18 @@
                                         <constraint firstItem="DOq-ON-VDs" firstAttribute="leading" secondItem="rgm-PA-nPq" secondAttribute="leading" constant="12" id="zGY-wK-zTt"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="ivVice" destination="HnR-1Z-Vpe" id="ZSH-rK-a21"/>
+                                    <outlet property="ivWinner" destination="DOq-ON-VDs" id="y1s-Vd-RRH"/>
+                                    <outlet property="lbCountry" destination="EdM-ko-hdr" id="7Uq-Ar-hOA"/>
+                                    <outlet property="lbVice" destination="OnG-7p-eUo" id="HR3-RZ-KWJ"/>
+                                    <outlet property="lbViceScore" destination="Npx-w6-XhY" id="PIA-Bh-pMM"/>
+                                    <outlet property="lbWinner" destination="Ars-Zo-i8n" id="kZ3-0u-x3N"/>
+                                    <outlet property="lbWinnerScore" destination="9xS-1W-vQQ" id="7v6-PL-717"/>
+                                    <outlet property="lbYear" destination="9KG-53-XRc" id="L1d-g0-Ys2"/>
+                                    <segue destination="eTK-JB-fEC" kind="show" id="qyt-HI-kzW"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -138,7 +150,7 @@
                             <outlet property="delegate" destination="dhD-iT-38y" id="Lyx-GR-u1b"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="gcY-19-6hI"/>
+                    <navigationItem key="navigationItem" title="Campeões" id="gcY-19-6hI"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ABS-HY-pEC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,6 +182,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RnJ-iX-2oa"/>
                     </view>
+                    <navigationItem key="navigationItem" id="uI6-tg-SFa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FTe-Rt-z0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

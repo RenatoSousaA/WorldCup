@@ -69,7 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEBB4D1023F0911500CAD827 /* CupWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB4D1023F0911500CAD827 /* WorldCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB4D1323F0911500CAD827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBB4D1A23F0911500CAD827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEBB4D1C23F0911700CAD827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		CEBB4D1123F0911500CAD827 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB4D1023F0911500CAD827 /* CupWin.app */,
+				CEBB4D1023F0911500CAD827 /* WorldCup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			);
 			name = CupWin;
 			productName = CupWin;
-			productReference = CEBB4D1023F0911500CAD827 /* CupWin.app */;
+			productReference = CEBB4D1023F0911500CAD827 /* WorldCup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -535,7 +535,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.CupWin";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WorldCup;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -552,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.CupWin";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WorldCup;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
